@@ -47,16 +47,16 @@ The goal is to help businesses understand why customers leave and which customer
 
 customer-churn-clv-analysis/
 
-├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+data/
+customer-churn-clv-analysisdatachurn.csv
 
-├── notebooks/
-│   └── churn_clv_analysis.py
+notebooks/
+churn_clv_analysis.py
 
-├── results/
-│   └── (model outputs, charts will be added here)
+results/
+(model outputs, charts will be added here)
 
-└── README.md
+README.md
 
 
 ## How to Run

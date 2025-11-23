@@ -46,6 +46,7 @@ The goal is to help businesses understand why customers leave and which customer
 ## Project Structure
 
 customer-churn-clv-analysis/
+
 │
 ├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
@@ -62,6 +63,7 @@ customer-churn-clv-analysis/
 ## How to Run
 
 cd customer-churn-clv-analysis
+
 python notebooks/churn_clv_analysis.py
 
 

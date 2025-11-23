@@ -9,57 +9,42 @@ The goal is to help businesses understand why customers leave and which customer
 # Key Features
 ## Exploratory Data Analysis (EDA)
 
-Missing value handling
+* Missing value handling
+* Distribution checks
+* Churn vs non-churn comparisons
 
-Distribution checks
+## Machine Learning Model
 
-Churn vs non-churn comparisons
+* Logistic Regression with:
+* OneHotEncoding
+* StandardScaler
+* ColumnTransformer Pipeline
+* ROC-AUC, classification report, confusion matrix
 
-🤖 Machine Learning Model
+## Customer Lifetime Value (CLV)
 
-Logistic Regression with:
+* Estimated CLV = MonthlyCharges × tenure
+* Segmentation: Low / Mid / High value customers
+* Churn rate by CLV segment
 
-OneHotEncoding
+## Business Insights
 
-StandardScaler
+* Which customers churn the most?
+* Which contract types are risky?
+* Which CLV categories have the highest churn?
+* How retention strategies should change?
 
-ColumnTransformer Pipeline
+## Technologies Used
 
-ROC-AUC, classification report, confusion matrix
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* Pathlib
+* Jupyter / .py script
 
-💸 Customer Lifetime Value (CLV)
+## Project Structure
 
-Estimated CLV = MonthlyCharges × tenure
-
-Segmentation: Low / Mid / High value customers
-
-Churn rate by CLV segment
-
-📈 Business Insights
-
-Which customers churn the most?
-
-Which contract types are risky?
-
-Which CLV categories have the highest churn?
-
-How retention strategies should change?
-
-🛠️ Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-Learn
-
-Pathlib
-
-Jupyter / .py script
-
-📁 Project Structure
 customer-churn-clv-analysis/
 │
 ├── data/
@@ -73,55 +58,40 @@ customer-churn-clv-analysis/
 │
 └── README.md
 
-▶️ How to Run
+## How to Run
+
 cd customer-churn-clv-analysis
 python notebooks/churn_clv_analysis.py
 
 
 This script performs:
 
-Data loading
-
-Cleaning & preprocessing
-
-Model training
-
-CLV estimation
-
-Insight extraction (contract type, CLV segment, etc.)
+* Data loading
+* Cleaning & preprocessing
+* Model training
+* CLV estimation
+* Insight extraction (contract type, CLV segment, etc.)
 
 Console output includes:
 
-Classification report
+* Classification report
+* ROC-AUC score
+* Confusion matrix
+* Churn rate by contract
+* Churn rate by CLV segment
 
-ROC-AUC score
+## Business Value
 
-Confusion matrix
+* This analysis helps organisations:
+* Identify customers who are most likely to leave
+* Understand high-risk contract types
+* Prioritize retention efforts based on CLV
+* Reduce churn-driven revenue loss
+* Improve long-term profitability
 
-Churn rate by contract
+## Next Steps (Future Enhancements)
 
-Churn rate by CLV segment
-
-💼 Business Value
-
-This analysis helps organisations:
-
-Identify customers who are most likely to leave
-
-Understand high-risk contract types
-
-Prioritize retention efforts based on CLV
-
-Reduce churn-driven revenue loss
-
-Improve long-term profitability
-
-📌 Next Steps (Future Enhancements)
-
-Add Random Forest / XGBoost models
-
-Add SHAP explainability for feature importance
-
-Build interactive dashboards (Streamlit / Power BI)
-
-Calculate discounted CLV using probabilistic churn survival
+* Add Random Forest / XGBoost models
+* Add SHAP explainability for feature importance
+* Build interactive dashboards (Streamlit / Power BI)
+* Calculate discounted CLV using probabilistic churn survival

@@ -1,6 +1,3 @@
-# customer-churn-clv-analysis
-Customer churn prediction and CLV analysis using Python.
-
 # Customer Churn Prediction & CLV Analysis
 
 This project analyzes customer churn using the Telco Customer Churn dataset (original Kaggle dataset) and builds a predictive model supported by Customer Lifetime Value (CLV) segmentation.
